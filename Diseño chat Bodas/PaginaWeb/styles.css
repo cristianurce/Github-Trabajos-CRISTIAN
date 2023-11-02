@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-image {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+.chat-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 1400px;
+    width: 100%;
+    margin-bottom: 60px;
+    height: 480px;
+}
+
+.logo-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    max-width: 10%;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mensaje {
+    display: flex;
+    max-width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.entrante {
+    align-self: flex-start;
+    background-color: #f0f0f0;
+}
+
+.pendiente {
+    align-self: flex-end;
+    background-color: #cce6ff;
+}
+
+.numero {
+    font-size: 1 rem;
+    font-weight: bold;
+    font-family: 'FuenteDeBodas', cursive;
+    margin-top: 1px;
+}
+
+.numero i {
+    margin-right: 5px;
+}
